@@ -1,0 +1,83 @@
+body {
+  font-family:'AvenirNextLTW02-Regular';
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family:'Avenir Next LT W02 Demi';
+}
+
+a h1, a h2 {
+  color: #000;
+}
+
+cite {
+  font-style: normal;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#promotions {
+  margin: 15px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  font-size: 14px;
+
+  h2 {
+    margin: 0;
+  }
+
+  .promo {
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+}
+
+#recent-articles {
+
+  article {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+
+    h2 {
+      margin: 10px 0 0 0;
+
+    }
+  }
+}
+
+#newsfeed {
+
+  h2 {
+    background: #f00;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .category {
+    font-family:'Avenir Next LT W02 Demi';
+  }
+
+  ul li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ddd;
+  }
+
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  background: #ddd;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+nav {
+  text-transform: uppercase;
+  font-size: 12px;
+}
